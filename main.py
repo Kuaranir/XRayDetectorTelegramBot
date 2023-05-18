@@ -9,7 +9,7 @@ from model_torch_function import detect_xray
 import psycopg2
 
 #токен для бота, берется из Телеграма: BotFather
-bot = telebot.TeleBot('6059040908:AAHG6F_f5BtpDa_bBrMyrYN6wqnxvf4LW3Y')
+bot = telebot.TeleBot('TOKEN')
 
 #получение фотки от пользователя и отправка в ответ пользователю фотки с распознанными лицами:
 @bot.message_handler(content_types = ['photo'])
