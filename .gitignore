@@ -1,0 +1,8 @@
+face_rec.py
+haarcascade_frontalface_alt.xml
+remove_background.py
+reviews.txt
+tesseract_script.py
+test.py
+torch_model.py
+video_detect.py
